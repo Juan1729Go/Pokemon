@@ -36,6 +36,12 @@ $pokemonList = getAllPokemon();
            <h1>Pokémon List</h1> 
     </div>
 
+    <div class="welcome">
+        <form action="../services/logout.php" method="post">
+            <button type="submit" class="logout-button">Cerrar Sesión</button>
+        </form>
+    </div>
+
     <ul>
         <?php foreach ($pokemonList as $pokemon): ?>
             <li>

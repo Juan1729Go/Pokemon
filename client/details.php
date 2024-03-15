@@ -38,6 +38,12 @@ if (empty($pokemonName)) {
     <div class="welcome">
         <h1>Pokémon Details</h1>
     </div>
+
+    <div class="welcome">
+        <form action="../services/logout.php" method="post">
+            <button type="submit" class="logout-button">Cerrar Sesión</button>
+        </form>
+    </div>
     
     <div class="box">
         <div class="dates">
